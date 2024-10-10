@@ -25,7 +25,7 @@ h2{
 #addButton {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #0077b6;
     color: white;
     border: none;
     border-radius: 5px;
@@ -33,7 +33,7 @@ h2{
 }
 
 #addButton:hover {
-    background-color: #45a049;
+    background-color: #0096c7;
 }
 
 ul {
@@ -43,7 +43,7 @@ ul {
 }
 
 li {
-    background-color: white;
+    background-color: #f4f3eb;
     padding: 8px; 
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -54,6 +54,7 @@ li {
     justify-content: space-between;
     margin-left: auto; 
     margin-right: auto; 
+    gap: 10px;
 }
 
 .botaoRemover {
@@ -83,6 +84,10 @@ li {
     background-color: #d32f2f;
 }
 
+.erro {
+    border-color: red; 
+    background-color: #ffe6e6; 
+}
 
 
 footer {
